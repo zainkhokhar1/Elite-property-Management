@@ -110,7 +110,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-
+            <div className='w-10/12 mx-auto bg-slate-200 h-[0.5px] mb-5'></div>
             {/* service card section */}
             <div className='w-full px-5 py-5 space-y-6 '>
                 {
@@ -119,7 +119,6 @@ const Home = () => {
                     })
                 }
             </div>
-
             {/* commercial message section */}
             <div className='bg-[#158BE3] h-[600px] py-[56px] px-6'>
                 <CommercialMessageCard />

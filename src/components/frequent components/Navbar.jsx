@@ -24,10 +24,28 @@ const Navbar = () => {
                 </div>
 
                 {/* 2nd part */}
-                <div className='h-18 flex items-center w-full bg-transparent justify-between py-4 px-6'>
+                <div className='h-18 flex items-center w-full bg-transparent justify-between md:justify-start gap-1 py-4 px-6'>
 
                     <img src={Logo} alt="img" className='w-[141px] h-13 '/>
-                    <FiMenu className='text-white text-3xl'/>
+                    <FiMenu className='text-white text-3xl md:hidden'/>
+                    <div className='md:flex items-center justify-between gap-2 pl-12 hidden'>
+                        <span className='text-[#23BDFF] text-base font-medium'>
+                            Home
+                        </span>
+                        <span className='text-[
+                        #FEFEFE] text-base font-medium'>
+                            Home
+                        </span>
+                        <span className='text-[#FEFEFE] text-base font-medium'>
+                            Home
+                        </span>
+                        <span className='text-[#FEFEFE] text-base font-medium'>
+                            Home
+                        </span>
+                        <span className='text-[#FEFEFE] text-base font-medium'>
+                            Home
+                        </span>
+                    </div>
                 </div>
 
             </div>

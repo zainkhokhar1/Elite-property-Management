@@ -74,7 +74,7 @@ const Footer = () => {
 
                 {/* Dropdown options container */}
                 <div
-                    className={`flex flex-col bg-[#F7FAFC] w-full transition-all duration-300 ease-in-out ${showPage ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+                    className={`flex flex-col items-start bg-[#F7FAFC] w-full transition-all duration-300 ease-in-out ${showPage ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
                         }`}
                 >
                     <span className="text-[#6E6F73] font-normal text-[14px] py-4 px-6">Home</span>
@@ -92,7 +92,7 @@ const Footer = () => {
                 >
                     <span className="text-[#26262E] font-medium text-base leading-6">Office hours</span>
 
-                    {showPage ? (
+                    {showOffice ? (
                         <PiCaretUp className="text-[#158BE3] text-xl" />
                     ) : (
                         <PiCaretDown className="text-[#158BE3] text-xl" />
@@ -101,10 +101,10 @@ const Footer = () => {
 
                 {/* Dropdown options container */}
                 <div
-                    className={`flex flex-col bg-[#F7FAFC] w-full transition-all duration-300 ease-in-out ${showOffice ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+                    className={`flex items-start flex-col bg-[#F7FAFC] w-full transition-all duration-300 ease-in-out ${showOffice ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
                         }`}
                 >
-                    <span className="text-[#6E6F73] font-normal text-[14px] py-4 px-6 flex flex-col">
+                    <span className="text-[#6E6F73] font-normal text-start text-[14px] py-4 px-6 flex flex-col">
                         <span>
                             Monday - Friday
                         </span>
@@ -113,7 +113,7 @@ const Footer = () => {
                         </span>
                     </span>
 
-                    <span className="text-[#6E6F73] font-normal text-[14px] py-4 px-6 flex flex-col">
+                    <span className="text-[#6E6F73] font-normal text-start text-[14px] py-4 px-6 flex flex-col">
                         <span>
                             Saturday - Sunday
                         </span>
