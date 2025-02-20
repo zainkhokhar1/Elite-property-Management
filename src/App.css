@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@theme {
+  --font-sans: "Poppins", serif;
+}
+
+@import "tailwindcss";
+
+
+.bg-img {
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.6) 7%,
+      rgba(0, 0, 0, 0.375) 15%,
+      rgba(0, 0, 0, 0.35) 40%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url('https://s3-alpha-sig.figma.com/img/5edd/95b2/5a044bad494e6139af617a07130ab8d8?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=t0V3Pvsdjy9dcwas4mjm9k~BBQRNHFYoeEibclg3NZkY1Cybnu7bvbTqYtKpm~291iqV8fKw6m48SvjgWbtgHfJ8o2ZQE9uw-cbwW8grYHYuuPggPBK5vwIFUnsA4M3oLFcSxSjrDERwWhZDbEphVKY-MwAScrQO6KW9HtGkN9Xtq4WLCyHjxmUGlZBRQbnu0ZlYn8lSUYTuQ4G5syAA6rXUoR-noeO2g9I7Bdl2tkk3qTMTgPXJoGf4mEtFGh52wSm47~z24AkDZvpcgUqKH0o9FOnayvyA0-sy2U6z5LAzAQhe7o4xurVHcDR2rujLEqz0y0NfZ~VVtyJuGkSpFA__');
+
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
